@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/REGISTRO"
+        android:textColor="@color/black"
+        android:layout_margin="46dp"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="46dp"
+        android:src="@drawable/candas" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Edad"
+        android:layout_marginBottom="46dp"/>
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Siguiente" />
+
+</LinearLayout>
+

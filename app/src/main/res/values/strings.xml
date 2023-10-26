@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hola_mundo">Hola mundo</string>
+    <string name="mi_boton">Mi boton</string>
+    <string name="usuario">usuario</string>
+    <string name="contrasena">contrasena</string>
+    <string name="sing_up">sing_up</string>
+    <string name="inicio_de_sesion">inicio de sesion</string>
+    <string name="Inicio_De_Sesion">Inicio de Sesion</string>
+    <string name="INICIO_DE_SESION">INICIO DE SESION</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="edad">edad</string>
+    <string name="Edad">Edad</string>
+    <string name="Siguiente">Siguiente</string>
+    <string name="registro">Registro</string>
+    <string name="Registro">registro</string>
+    <string name="REGISTRO">Registro</string>
+</resources>
