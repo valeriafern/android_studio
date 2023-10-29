@@ -27,7 +27,7 @@ class MainActivity2 : AppCompatActivity() {
     }
 
     private fun setupOnclickListener() {
-        binding.boton.setOnClickListener {
+        binding.myper.setOnClickListener {
             val intent = Intent(this, MainActivity3::class.java)
             startActivity(intent)
         }
@@ -35,4 +35,3 @@ class MainActivity2 : AppCompatActivity() {
 
 
 }
-
