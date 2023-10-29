@@ -5,14 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
+    android:padding="18dp"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/INICIO_DE_SESION"
-        android:textColor="@color/red"
-        android:layout_margin="46dp"
+        android:textColor="@color/azul2"
+        android:layout_margin="40dp"
+        android:textSize="27sp"
         android:layout_gravity="center"/>
 
     <ImageView
@@ -20,24 +23,45 @@
         android:layout_height="@dimen/_200dp"
         android:src="@drawable/candas"
         android:layout_marginBottom="46dp"
-        android:layout_gravity="center" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/contrasena"
-        android:layout_marginBottom="46dp"/>
+        android:layout_gravity="center"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/usuario"
+        android:gravity="center"
+        android:layout_marginBottom="46dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contrasena"
+        android:gravity="center"
         android:layout_marginBottom="46dp"/>
 
     <Button
         android:id="@+id/boton"
         android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="@string/iniciar_sesion"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/iniciar_sesion" />
+        android:text="@string/Necesitas_ayuda"
+        android:textColor="@color/azul"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/olvidaste_tu_contrasena"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
 
 </LinearLayout>

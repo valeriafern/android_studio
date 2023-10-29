@@ -4,38 +4,77 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/verde"
     android:orientation="vertical"
+    android:gravity="center"
+    android:padding="18dp"
     tools:context=".MainActivity2">
-
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/REGISTRO"
-        android:textColor="@color/black"
-        android:layout_margin="46dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="left"
+        android:text="@string/bienvenid_val"
+        android:layout_margin="40dp"
+        android:textSize="30sp"/>
 
     <ImageView
         android:layout_width="@dimen/_200dp"
         android:layout_height="@dimen/_200dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="46dp"
-        android:src="@drawable/candas" />
+        android:src="@drawable/minion"
+        android:layout_gravity="center"/>
 
-    <EditText
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/Edad"
-        android:layout_marginBottom="46dp"/>
+        android:layout_gravity="left"
+        android:text="Explora todas las increíbles características que hemos preparado para ti. Descubre nuevas experiencias, conéctate con amigos y disfruta de contenido exclusivo.
+Nuestra misión es hacer que tu experiencia sea única."
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Siéntete como en casa y aprovecha al máximo todo lo que tenemos para ofrecerte.
+Comienza a explorar ahora y únete a nuestra comunidad.
+¡Esperamos que disfrutes tu viaje con nosotros!"
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accede_a_tu_perfil_para_cuadrar_los_ultimos_detalles"
+        android:textColor="@color/azul"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
 
     <Button
-        android:id="@+id/boton"
+        android:id="@+id/myper"
         android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="@string/ir_a_mi_perfil"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Siguiente" />
+        android:text="@string/Necesitas_ayuda"
+        android:textColor="@color/azul"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terminos_y_condiciones"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
 
 </LinearLayout>
 
