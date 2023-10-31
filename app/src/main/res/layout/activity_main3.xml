@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MI PERFIL"
+        android:text="@string/mi_perfilll"
         android:textColor="@color/azul2"
         android:layout_margin="40dp"
         android:textSize="26sp"
