@@ -10,6 +10,7 @@ import com.example.myapplication.databinding.ActivityMainBinding
 class MainActivity2 : AppCompatActivity() {
 
     private lateinit var binding: ActivityMain2Binding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
@@ -24,14 +25,22 @@ class MainActivity2 : AppCompatActivity() {
 
     private  fun initIU(){
     setupOnclickListener()
+        setupExtras()
     }
 
     private fun setupOnclickListener() {
         binding.myper.setOnClickListener {
+            val user = binding.txtNameUser.text.toString()
             val intent = Intent(this, MainActivity3::class.java)
+            intent.putExtra("KeyUser", user)
             startActivity(intent)
         }
     }
 
+    private fun setupExtras () {
+     val userExtra = intent.getStringExtra("KeyUser")
+
+        binding.txtNameUser.text = userExtra
+    }
 
 }

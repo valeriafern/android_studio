@@ -25,13 +25,31 @@
         android:layout_marginBottom="46dp"
         android:layout_gravity="center"/>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/usuario_val"
-        android:layout_margin="16dp"
+        android:text="@string/usuario2"
+        android:layout_margin="9dp"
         android:gravity="center"
         android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/txtNameUser2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
 
     <TextView
         android:layout_width="wrap_content"

@@ -22,6 +22,7 @@ class MainActivity3 : AppCompatActivity() {
 
     private  fun initIU(){
         setupOnclickListener()
+        setupExtras()
     }
 
     private fun setupOnclickListener() {
@@ -29,6 +30,12 @@ class MainActivity3 : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
+    }
+
+    private fun setupExtras () {
+        val userExtra = intent.getStringExtra("KeyUser")
+
+        binding.txtNameUser2.text = userExtra
     }
 
 }
