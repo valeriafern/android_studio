@@ -22,7 +22,7 @@
     <string name="bienvenid">¡Bienvenid@!</string>
     <string name="mi_perfil">Mi perfil</string>
     <string name="ir_a_mi_perfil">Ir a mi Perfil</string>
-    <string name="accede_a_tu_perfil_para_cuadrar_los_ultimos_detalles">Accede a tu perfil para cuadrar los ultimos detalles</string>
+    <string name="accede">Accede a tu perfil para cuadrar los ultimos detalles</string>
     <string name="terminos_y_condiciones">Terminos y Condiciones</string>
     <string name="correo_example_gmail_com">Correo:Example@gmail.com</string>
     <string name="Eda">Edad</string>
@@ -31,7 +31,7 @@
     <string name="finalizar">Finalizar</string>
     <string name="bienvenid_val">Bienvenid@ Val</string>
     <string name="usuario_val">Usuario:Val</string>
-    <string name="explora_todas_las_incre_bles_caracter_sticas_que_hemos_preparado_para_ti_descubre_nuevas_experiencias_con_ctate_con_amigos_y_disfruta_de_contenido_exclusivo_nuestra_misi_n_es_hacer_que_tu_experiencia_sea_nica">Explora todas las increíbles características que hemos preparado para ti. Descubre nuevas experiencias, conéctate con amigos y disfruta de contenido exclusivo. Nuestra misión es hacer que tu experiencia sea única.</string>
-    <string name="si_ntete_como_en_casa_y_aprovecha_al_m_ximo_todo_lo_que_tenemos_para_ofrecerte_comienza_a_explorar_ahora_y_nete_a_nuestra_comunidad_esperamos_que_disfrutes_tu_viaje_con_nosotros">Siéntete como en casa y aprovecha al máximo todo lo que tenemos para ofrecerte. Comienza a explorar ahora y únete a nuestra comunidad. ¡Esperamos que disfrutes tu viaje con nosotros!</string>
+    <string name="parrafo1">Explora todas las increíbles características que hemos preparado para ti. Descubre nuevas experiencias, conéctate con amigos y disfruta de contenido exclusivo. Nuestra misión es hacer que tu experiencia sea única.</string>
+    <string name="parrafo2">Siéntete como en casa y aprovecha al máximo todo lo que tenemos para ofrecerte. Comienza a explorar ahora y únete a nuestra comunidad. ¡Esperamos que disfrutes tu viaje con nosotros!</string>
     <string name="mi_perfilll">MI PERFIL</string>
 </resources>

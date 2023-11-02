@@ -28,22 +28,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
-        android:text="@string/explora_todas_las_incre_bles_caracter_sticas_que_hemos_preparado_para_ti_descubre_nuevas_experiencias_con_ctate_con_amigos_y_disfruta_de_contenido_exclusivo_nuestra_misi_n_es_hacer_que_tu_experiencia_sea_nica"
         android:layout_margin="10dp"
-        android:textSize="20sp"/>
+        android:text="@string/parrafo1"
+        android:textSize="20sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
-        android:text="@string/si_ntete_como_en_casa_y_aprovecha_al_m_ximo_todo_lo_que_tenemos_para_ofrecerte_comienza_a_explorar_ahora_y_nete_a_nuestra_comunidad_esperamos_que_disfrutes_tu_viaje_con_nosotros"
+        android:text="@string/parrafo2"
         android:layout_margin="10dp"
         android:textSize="20sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/accede_a_tu_perfil_para_cuadrar_los_ultimos_detalles"
+        android:text="@string/accede"
         android:textColor="@color/azul"
         android:layout_margin="20dp"
         android:layout_gravity="center"
