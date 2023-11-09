@@ -1,11 +1,13 @@
-package com.example.myapplication
+package com.example.myapplication.UI
 
 import android.content.Intent
+import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.widget.Toast
+import com.example.myapplication.R
 import com.example.myapplication.databinding.ActivityMain2Binding
-import com.example.myapplication.databinding.ActivityMainBinding
 
 class MainActivity2 : AppCompatActivity() {
 
@@ -26,21 +28,25 @@ class MainActivity2 : AppCompatActivity() {
     private  fun initIU(){
     setupOnclickListener()
         setupExtras()
+        setupPreferences()
     }
+
 
     private fun setupOnclickListener() {
         binding.myper.setOnClickListener {
-            val user = binding.txtNameUser.text.toString()
-            val intent = Intent(this, MainActivity3::class.java)
-            intent.putExtra("KeyUser", user)
-            startActivity(intent)
+          SharedPref.removeSharedPref("userLogged")
         }
     }
 
     private fun setupExtras () {
      val userExtra = intent.getStringExtra("KeyUser")
 
-        binding.txtNameUser.text = userExtra
+        setupPref()
+    }
+
+    private  fun setupPreferences(){
+        val user= sharedPref.getuser()
+        Toast.makeText(this, user, Toast.LENGTH_LONG).show()
     }
 
 }

@@ -1,10 +1,10 @@
-package com.example.myapplication
+package com.example.myapplication.UI
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
-import com.example.myapplication.databinding.ActivityMain2Binding
+import com.example.myapplication.R
 import com.example.myapplication.databinding.ActivityMain3Binding
 
 class MainActivity3 : AppCompatActivity() {

@@ -1,16 +1,13 @@
-package com.example.myapplication
+package com.example.myapplication.UI
 
 import android.content.Intent
-import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.widget.Button
 import android.widget.Toast
+import com.example.myapplication.R
 import com.example.myapplication.data.SharedPreferencesManager
-import com.example.myapplication.databinding.ActivityMain2Binding
 import com.example.myapplication.databinding.ActivityMainBinding
-import kotlin.properties.Delegates
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         SharedPref = SharedPreferencesManager(this)
         val user = SharedPref.getUser()
-        val boolean = SharedPref.getBoolean()
+        val boolean = SharedPref.getUsersIsLogged()
         Toast.makeText(this, user, Toast.LENGTH_LONG).show()
         if (boolean){
             val intent= Intent(this, MainActivity2::class.java)
@@ -52,9 +49,13 @@ private  fun initUI() {
 
             intent.putExtra("KeyUser", user)
 
-              SharedPref.saveUser(user)
+
+            SharedPref.savePref("userLogged", true)
 
             startActivity(intent)
         }
+        binding.btnRegister
     }
+
+
 }
